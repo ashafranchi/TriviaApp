@@ -53,7 +53,7 @@ function App() {
   }
 
   return (
-    <>
+    <div>
     <form className="header" onSubmit={handleSubmit}>
       <div className="form-group">
         <label htmlFor="category">Category</label>
@@ -74,7 +74,7 @@ function App() {
     <div className="container">
     <FlashcardList flashcards={flashcards} />
     </div>
-    </>
+    </div>
   );
 }
 
